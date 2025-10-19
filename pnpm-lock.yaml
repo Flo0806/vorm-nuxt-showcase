@@ -16,10 +16,10 @@ importers:
         version: 4.1.3(@parcel/watcher@2.5.1)(@vue/compiler-sfc@3.5.22)(db0@0.3.4)(ioredis@5.8.1)(magicast@0.3.5)(rollup@4.52.5)(terser@5.44.0)(vite@7.1.10(jiti@2.6.1)(terser@5.44.0)(yaml@2.8.1))(yaml@2.8.1)
       vorm-nuxt:
         specifier: ^1.0.1
-        version: 1.0.1(magicast@0.3.5)(vorm-vue@1.0.1(vue@3.5.22))
+        version: 1.0.1(magicast@0.3.5)(vorm-vue@1.0.2(vue@3.5.22))
       vorm-vue:
-        specifier: ^1.0.1
-        version: 1.0.1(vue@3.5.22)
+        specifier: ^1.0.2
+        version: 1.0.2(vue@3.5.22)
       vue:
         specifier: ^3.5.22
         version: 3.5.22
@@ -3466,8 +3466,8 @@ packages:
     peerDependencies:
       vorm-vue: ^1.0.0
 
-  vorm-vue@1.0.1:
-    resolution: {integrity: sha512-86BjwFI02PRh9uK9ZHFRiBIPQKgrCTxzBlLTs34tc4d1ifp1s6LSwMO2GXE8kcwq251yPVmI6vofNJkLkZLBMQ==}
+  vorm-vue@1.0.2:
+    resolution: {integrity: sha512-sITV5GVCRlqUZ/LaXhpugJcBwBoJE0ESswdwykHsC/xWmWpthtqheH+HcewBuAeNmtF2aft44nPjSNK/+9X/WA==}
     peerDependencies:
       vue: ^3.0.0
 
@@ -7295,14 +7295,14 @@ snapshots:
       terser: 5.44.0
       yaml: 2.8.1
 
-  vorm-nuxt@1.0.1(magicast@0.3.5)(vorm-vue@1.0.1(vue@3.5.22)):
+  vorm-nuxt@1.0.1(magicast@0.3.5)(vorm-vue@1.0.2(vue@3.5.22)):
     dependencies:
       '@nuxt/kit': 4.1.3(magicast@0.3.5)
-      vorm-vue: 1.0.1(vue@3.5.22)
+      vorm-vue: 1.0.2(vue@3.5.22)
     transitivePeerDependencies:
       - magicast
 
-  vorm-vue@1.0.1(vue@3.5.22):
+  vorm-vue@1.0.2(vue@3.5.22):
     dependencies:
       vue: 3.5.22
 
