@@ -1,0 +1,27 @@
+{
+  // Disable CSS validation for unknown at-rules (like @apply, @layer, etc.)
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+
+  // Enable Tailwind CSS IntelliSense
+  "tailwindCSS.experimental.classRegex": [
+    ["class:\\s*['\"`]([^'\"`]*)['\"`]", "([^\\s]*)"]
+  ],
+
+  // Tailwind IntelliSense settings
+  "tailwindCSS.includeLanguages": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+
+  // File associations
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // Editor settings for better Tailwind experience
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
